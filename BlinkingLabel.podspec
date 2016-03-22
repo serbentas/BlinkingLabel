@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "BlinkingLabel"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BlinkingLabel."
+  s.summary          = "Blink it once. Blink it twice."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        Building a blinking screen with disable button.
+                        That should be neet.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BlinkingLabel"
+  s.homepage         = "https://github.com/serbentas/BlinkingLabel"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Andrej" => "asol@danskebank.dk" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BlinkingLabel.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/serbentas/BlinkingLabel.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
